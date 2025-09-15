@@ -93,4 +93,4 @@ Message Box Generate value as string:25 OK
 
 Message Box Second fruit is:Banana OK
 
-1. DataTable: Use a Build Data Table activity to create myTable with columns (Name, Age) and rows, then loop it using For Each Row in DataTable and add a Write Line to display: "Name: " + row("Name").ToString + ", Age: " + row("Age").ToString.
+1. DataTable: Use a Build Data Table activity to create myTable with columns (Name, Age) and rows, then loop it using For Each Row in DataTable and add a Write Line to display: "Name: " + Currentrow("Name").ToString + ", Age: " + row("Age").ToString.
